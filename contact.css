@@ -1,0 +1,15 @@
+.section_contact{
+	background-color: #F4F4F4;
+	min-height: 650px;
+	padding-top: 50px;
+	padding-bottom: 700px;
+	text-align: center;
+}
+
+.contact_title{
+	margin-top:20px;
+	margin-bottom: 30px;
+}
+
+.contact_title, p{
+}

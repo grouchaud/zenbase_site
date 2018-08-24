@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Zenbase</title>
+    <title>Bogastar</title>
     <!--<link rel="shortcut icon" href="https://emojipedia-us.s3.amazonaws.com/cache/e3/01/e301192e04353d2683f2894102bda853.png">-->
     <link rel="icon" href="images/ZD.ico" />
     <link rel="stylesheet" href="static/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -45,14 +45,14 @@
 
 <video id="bgvid" playsinline autoplay muted loop>
   <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<source src="http://ak5.picdn.net/shutterstock/videos/15778135/preview/stock-footage-office-chair-race-slow-motion-young-guys-have-fun-in-the-office-during-a-break-games-of-businessm.mp4" type="video/mp4">
+<source src="http://ak1.picdn.net/shutterstock/videos/2561471/preview/stock-footage-canopy-of-the-amazon-rainforest.webm" type="video/mp4">
 </video>
 
 <div class="front_page">
 	<script src="nav_front.js"></script>
 	<div class="row clearfix">
 		<div class="col-xs-12 text-center tagline-footer">
-			<h1>Prenez le pouls de vos équipes,<br>une fois par semaine <i class="em em-wink"></i>
+			<h1>Bla bla bla bla bla trading,<br>Bloisduf eqodfq qzd consulting <i class="em em-wink"></i>
 			</h1>
 		</div>
 	</div>

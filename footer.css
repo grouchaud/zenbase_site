@@ -4,6 +4,18 @@ body{
 	overflow-x: hidden;
 }
 
+#logo_front{
+	position:relative;
+	top: -233px;
+	left:-210px;
+	transform: scale(0.08,0.08);
+	z-index: 1031;
+}
+
+.blank{
+	margin-top: 90px;
+}
+
 .separator-horizontal{
 	color: rgb(31, 31, 31);
     height: 2px;
@@ -35,7 +47,7 @@ body{
 }
 
 .navbar-default .navbar-collapse .navbar-nav .connexion a{
-	color: rgb(241,112,63);
+	color: #ff0000;
 	letter-spacing: 1px;
 	font-weight: bolder;
 	font-size: small;
@@ -43,7 +55,7 @@ body{
 }
 
 .navbar-default .navbar-collapse .navbar-nav .connexion a:hover{
-	color: rgb(221,72,15);
+	color: #c10000;
 	}
 
 .navbar-default .navbar-collapse .navbar-nav .menu-item a{
@@ -60,12 +72,15 @@ body{
 	color: rgb(99,99,99);
 }
 .navbar{
-	background-color: transparent;
+	height: 75px;
+	background-color: white;
 	border-color: transparent;
+		box-shadow: rgb(210, 210, 210) 1px 1px 8px 0px;
 }
 
 .navcontain {
-	padding-top: 23px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 .cta {
@@ -139,12 +154,12 @@ body{
     align-items: flex-start;
     perspective-origin: 120px 22.5px;
     transform-origin: 120px 22.5px;
-    background: rgb(241,112, 63); none repeat scroll 0% 0% / auto padding-box border-box;
+    background: #ff0000; none repeat scroll 0% 0% / auto padding-box border-box;
     border-top: 0px none rgb(255, 255, 255);
     border-right: 0px none rgb(255, 255, 255);
-    border-bottom: 3px solid #d4460f;
+    border-bottom: 3px solid #c10000;
     border-left: 0px none rgb(255, 255, 255);
-    border-radius: 2px;
+    border-radius: 5px;
     font: normal normal bold normal 16px / 22.8571px Helvetica, sans-serif;
     outline: rgb(255, 255, 255) none 0px;
     padding-top: 5px;
@@ -153,7 +168,7 @@ body{
 }
 
 #INPUT_2:hover{
-	border-bottom: 2px solid #d4460f;
+	border-bottom: 2px solid #c10000;
 }
 
 #INPUT_1xs {
@@ -189,10 +204,10 @@ body{
     align-items: flex-start;
     perspective-origin: 120px 22.5px;
     transform-origin: 120px 22.5px;
-    background: rgb(241,112, 63); none repeat scroll 0% 0% / auto padding-box border-box;
+    background: #6C4EA6; none repeat scroll 0% 0% / auto padding-box border-box;
     border-top: 0px none rgb(255, 255, 255);
     border-right: 0px none rgb(255, 255, 255);
-    border-bottom: 3px solid #d4460f;
+    border-bottom: 3px solid #4E3878;
     border-left: 0px none rgb(255, 255, 255);
     border-radius: 2px;
     font: normal normal bold normal 16px / 22.8571px Helvetica, sans-serif;
@@ -203,7 +218,7 @@ body{
 }/*#INPUT_1*/
 
 #INPUT_2xs:hover{
-	border-bottom: 2px solid #d4460f;
+	border-bottom: 2px solid #4E3878;
 }
 
 .tagline-footer{
@@ -225,7 +240,7 @@ body{
 .fa{
 	padding-top: 25px;
 	text-align: center;
-	color: rgb(143,143,143);
+	color: rgb(153,153,153);
 	text-decoration: none;
 }
 .fa:hover{
@@ -234,8 +249,9 @@ body{
 }
 
 .index{
-	text-align: center;
+	text-align: left;
 	margin-top: 0px;
+	padding-left: 14%;
 	color:#363738;
 }
 

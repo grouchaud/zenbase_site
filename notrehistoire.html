@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Zenbase</title>
-    <link rel="icon" type="image/png" href="images/Z.png" />
+    <link rel="icon" href="images/ZD.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="notrehistoire.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="footer_grey.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link href="http://emojicss.com/emoji.css" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.1/vivus.min.js"></script>
+
+
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -21,10 +24,10 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-78726032-1', 'auto');
+  ga('create', 'UA-84644952-1', 'auto');
   ga('send', 'pageview');
 
-</script>    
+</script>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -35,34 +38,36 @@
     <![endif]-->
   </head>
   <body>
-
+  
 <script src="nav.js"></script>
+
+
+
 
 <div class="section1">
 	<div class="container">
 		<div class="row clearfix">
 			<div class="col-xs-12">
 				<div class="title">
-					<h2>Pourquoi avons-nous créé Zenbase ?</h2>
+					<h2>Qui suis-je ?</h2>
 				</div>
 				<div class="subtitle">
-					<h3>Parce que les outils de management utilisés dans la majorité des entreprises n'ont pas ou peu évolué depuis 10 ans ! <i class="em em-scream"></i></h3>
+					<h3>Je suis Jacques Rouchaud <i class="em em-scream"></i></h3>
 				</div>
 				<h4 class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien odio, lacinia et posuere vitae, condimentum sit amet mi. Duis in blandit metus. Etiam maximus eros vitae urna facilisis malesuada in vitae turpis. Maecenas suscipit mollis nisl, nec tincidunt neque varius in. Suspendisse eget felis auctor neque mollis venenatis at nec arcu. Aliquam augue lectus, imperdiet vitae pellentesque ut, tincidunt in lacus. Suspendisse cursus et ante vitae lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tincidunt consequat ante, eget tincidunt ante mollis sit amet. Etiam et lacus pulvinar, egestas lacus id, molestie leo. Aliquam erat volutpat. Suspendisse interdum varius ipsum, id interdum mauris venenatis vitae. Nulla facilisi. In ac porta est. Donec ut vehicula nisl. Pellentesque vel feugiat ex.
 				</h4>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="section2">
+
 	<div class="container">
 		<div class="row clearfix">
 			<div class="col-xs-12">
 				<div class="title">
-					<h2>Notre mission avec Zenbase ?</h2>
+					<h2>Ma mission ?</h2>
 				</div>
 				<div class="subtitle">
-					<h3 >Construire le meilleur outils de management pour les 10 prochaines années !<i class="em em-facepunch"></i></h3>
+					<h3 >NDIQZDQZ<i class="em em-facepunch"></i></h3>
 				</div>
 				<h4 class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien odio, lacinia et posuere vitae, condimentum sit amet mi. Duis in blandit metus. Etiam maximus eros vitae urna facilisis malesuada in vitae turpis. Maecenas suscipit mollis nisl, nec tincidunt neque varius in. Suspendisse eget felis auctor neque mollis venenatis at nec arcu. Aliquam augue lectus, imperdiet vitae pellentesque ut, tincidunt in lacus. Suspendisse cursus et ante vitae lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tincidunt consequat ante, eget tincidunt ante mollis sit amet. Etiam et lacus pulvinar, egestas lacus id, molestie leo. Aliquam erat volutpat. Suspendisse interdum varius ipsum, id interdum mauris venenatis vitae. Nulla facilisi. In ac porta est. Donec ut vehicula nisl. Pellentesque vel feugiat ex.</h4>
 			</div>
@@ -73,9 +78,34 @@
 
 
 <script src="footer.js"></script>
+	
+<script>
+$(document).ready(function() {
+	var oTop = $('.counter').offset().top - window.innerHeight;
+    $(window).one("scroll",function(){
+    
+ 		var pTop = $('body').scrollTop();
+    	console.log( pTop + ' - ' + oTop );
+		var x = "1";
+ 		if((pTop > oTop) && (x == "1")){
+     		sign_func();
+			x = "2";
+ 		}
+	});
+});
+
+function sign_func(){
+var Logo = new Vivus('sign', {
+  duration: 200,
+  type: "oneByOne", 
+  delay: 10
+  });
+  Logo.play(1);
+  }
+
+</script>
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>

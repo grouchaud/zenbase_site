@@ -1,3 +1,44 @@
+body {
+  margin: 0;
+  background: #000; 
+}
+.gradient{
+	background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,#303030 85%);
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,#303030 85%);
+    background: -o-linear-gradient(top,rgba(0,0,0,0) 0,#303030 85%);
+    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,#303030 85%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,#303030 85%);
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+	background: url('https://www.unstock.io/explore/clip/30254/group-of-people-organise-brainstorm-in-office-to-share-ideas-with-each-other.-they-sit-at-white-table-all-together-which-is-full-of-sheets-of-paper-with-schemes-on-them.-blonde-woman-who-settles-in-middle-distributes-documents-between-participants-of-di/') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+.tagline-footer{
+	color: #F4F4F4;
+
+}
+
+.vide {
+	height:500px;
+}
+
 .videoraw{
 	
 }
@@ -65,25 +106,42 @@
 	background-color: #F4F4F4;
 	/*background-color: white;*/
 	min-height: 800px;
-	margin-top: -340px;
-	padding-bottom: 70px;
-	padding-top : 70px;
+	margin-top: -250px;
+	padding-bottom: 50px;
+	padding-top : 0px;
 }
 
-
+.section2{
+	background-color:rgba(241,112,63, 0.8);
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
+
+.section3{
+	background-color: #F4F4F4;
+	padding-bottom:30px;
+}
+
 .image-benefit{
-	box-shadow: 0px 10px 9px 0px #cfcfcf;
-	animation: beatimg .35s infinite alternate;
-	transform-origin: center;
+	box-shadow: 5px 10px 19px 5px rgb(221, 92, 43);
+	padding-right: 0px;
+}
+
+.shadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
 }
 
 .image-benefit-col{
-	margin-left: 15px;
+	margin-left:15px;
 }
 
 .image-benefit2{
-	box-shadow: 0px 10px 9px 0px #cfcfcf;
+
 	animation: beatimg .35s infinite alternate;
 	margin-left: 15px;
 }
@@ -93,18 +151,23 @@
 }
 
 .title-benefit1{
-	margin-top: 0%;
-	font-size: 1.8em;
+	margin-top: 5%;
+	font-size: 1.4em;
 	padding-left: 10px;
+	padding-bottom:20px;
+	color:#F4F4F4;
 }
 
 .title-benefit2{
-	margin-top: 27%;
+	padding-bottom:20px;
+	margin-top: 10%;
 	font-size: 1.8em;
  	padding-left: 10px;
+	color:#F4F4F4;
 }
 
 .title-benefitxs{
+	color:#F4F4F4;
 	text-align: center;
 	font-size: 1.8em;
 	margin-bottom: 10px;
@@ -113,17 +176,35 @@
 
 #content-benefit ul{
 	text-transform: uppercase;
-	padding-left: 10px;
+	padding-left: 0px;
 	}
 
 #content-benefit li{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #F4F4F4;
+	letter-spacing: 1,5px;
+	line-height: 1.2em;
+	font-size:0.9em;
+	text-transform: uppercase;
+	margin-left: 0px;
+	text-align:justify;
+}
+
+#content-benefit2 ul{
+	text-transform: uppercase;
+	padding-left: 0px;
+	}
+
+#content-benefit2 li{
+	text-align:justify;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	color: grey;
+	color: #F4F4F4;
 	letter-spacing: 1,5px;
 	line-height: 2em;
 	text-transform: uppercase;
-	margin-left: 10px;
+	margin-left: 0px;
 }
 
 .how-it-works-title{
@@ -179,26 +260,29 @@
 
 .how-it-works-subtitle{
 	font-size: 1.4em;
-	padding-top: 15px;
+	padding-top: 25px;
 	text-transform: uppercase;;
+	text-align: left;
+	padding-left:25px;
 }
 
 .how-it-works-content-1{
 	font-size: 1em;
 	text-align: left;
 	color: grey;
-	padding-left: 45px;
+	padding-left: 25px;
 	padding-top:20px;
 	font-weight: lighter;
 	line-height: 20px;
 	text-transform: uppercase;
 	letter-spacing: 1,5px;
+	text-align: justify;
 }
 
 .how-it-works-content-2{
-	text-align: left;
+	text-align: justify;
 	color: grey;
-	padding-left: 35px;
+	padding-left: 25px;
 	padding-top:20px;
 	font-weight: lighter;
 	line-height: 20px;
@@ -207,7 +291,7 @@
 }
 
 .how-it-works-content-3{
-	text-align: left;
+	text-align: justify;
 	color: grey;
 	padding-left: 25px;
 	padding-top:20px;
@@ -271,7 +355,7 @@ width: 112px;
 .testimonial-pic{
     float: left;
     margin-right: 20px;
-    padding-left: 200px;
+    padding-left: 10%;
 }
 .testimonial-pic > img{
     width: 55px;

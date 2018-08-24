@@ -5,7 +5,6 @@ body{
 
 .section1{
 	padding-top: 60px;
-	margin-bottom: 30px;
 }
 
 .section2{
@@ -33,7 +32,13 @@ body{
     line-height: 30px;
 }
 
+#sign{
+	width: 25%;
+	float: right;
+	margin-bottom:-150px;
+	margin-right:30px;
+	margin-top: -150px;
+	}
 
-
-
+.st0{fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;}
 
